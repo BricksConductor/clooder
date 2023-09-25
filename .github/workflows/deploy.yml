@@ -35,5 +35,5 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "flat-owl-29"
-          entrypoint: "peerflix-server" # 📝 Update the entrypoint if necessary
+          entrypoint: "start.js" # 📝 Update the entrypoint if necessary
           root: "." # 📝 Update the root if necessary
